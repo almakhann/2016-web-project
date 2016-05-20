@@ -1,0 +1,388 @@
+body{
+	margin: 0;
+}
+/* HEAD *********************************************************************************************************************/
+.head{
+	margin: 0;
+	background-color:black ;
+	height: 85px;
+}
+.home{
+	font-size: 11px;
+	color:white;
+}
+.home:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+li a{
+	margin-top: 15px;
+	font-size: 15px;
+	text-decoration: none;
+	color: gray;
+}
+.tr{
+	padding-top: 10px;
+}
+.tr li {
+	font-weight: bold;
+	padding: 20px;
+	display: inline;
+	font-size: 11px;
+}
+.ts{
+	padding-top:15px;
+	margin-left: 8px;
+}
+.ts li{
+	font-weight: bold;
+	display: inline;
+	padding: 12px;
+	width: 100%;
+}
+.ts a:hover{
+	text-decoration: none;
+	color:white;
+	cursor: pointer;
+}
+
+.logo{
+	float: right;
+	margin-top: 17px;
+	margin-right: 45px;
+}
+
+
+/*SEARCH**********************************************************************************************************************/
+/*input {
+	border: #333333;
+	color: #333333;
+	background-color: #333333;
+	max-width: 100px;	
+}*/
+.search{
+	color:white;
+	border: #333333;
+	color: #333333;
+	background-color: #333333;
+	max-width: 100px;	
+}
+.tr  span{
+	color: gray;
+	right: 15px;
+	top: 2.6px;
+}
+.ts li span{
+	right: 2.5px;
+	text-decoration: none;
+}
+
+
+/*Carousel********************************************************************************************************************/
+.carousel-inner .item  { 
+	position: absolute;	
+    width: 100%;
+    height: 534px;
+    margin: auto;
+}
+.carusel #myCarousel .carousel-indicators{
+    position: absolute;
+    bottom: 17px;
+    left: 50%;
+    z-index: 15;
+    width: 100px;
+    padding-left: 0;
+    margin-left: -4%;
+    text-align: center;
+    list-style: none;
+}
+
+/*bottom************************************************************************************************************************/
+#asty{
+  	background-color: black; 	
+  	height: 48px;
+  	margin: 0;
+  	padding:0;
+  }
+.bottom li{
+	display: inline;
+}
+.bottom a{
+	font-weight: bold;
+	padding-left: 50px;
+	margin-left: 10px;
+	font-size: 10px;
+	padding: 1px;
+	color: gray;
+}
+.bottom li a:hover{
+	cursor: pointer;
+	color: white;
+	text-decoration: none;
+
+	
+}
+.bottom{
+	width: 700px;	
+    padding-left: 49px;
+    float: left;
+}
+.footer{
+	height: 33px;
+	width: 650px;
+	color: gray;
+	font-size: 11px;
+	padding-left: 60px;
+	padding-top: 15px;
+}
+
+/*INS TWIT*************************************************************************************************************************/
+
+.suret li{
+	display: inline;
+	padding: 3px;
+}
+.suret{
+	float: right;
+	width: 350px;
+	padding-top: 9px;
+}
+
+
+/*MODELS**************************************************************************************************************************/
+.body{
+	height: 534px;
+	width: 100%;
+	background-color: #1a1a1a;
+	background-repeat: repeat-x;
+}
+.models{
+	float: left;
+	width: 600px;
+}
+
+.chiron{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 320px;
+	padding-top:70px;	
+	padding-left: 63px; 
+}
+.chiron1{
+	padding-left: 63px; 
+	padding-top: 70px;
+}
+.chiron1 a{
+	color: gray;
+}
+.chiron1 a:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+.veyron{
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	float: left;
+	width: 320px;
+	height: 220px;
+	padding-left: 63px;
+}
+.veyron1{
+	padding-left: 63px;
+	}
+.veyron1 a{
+	text-decoration: none;
+	color: gray;
+}
+.veyron1 a:hover{
+	text-decoration: none;
+	color: white;
+	cursor: pointer;
+}
+
+/*LOGIN********************************************************************************************************************/
+.body-login{
+	background-image: url("img/12.jpg");
+	background-size: 100%;
+	padding-top: 64px;
+	height: 534px;
+	width: 100%;
+	
+}
+.login-bottom {
+	height: 48px;
+	background-color: black;
+}
+.login-bottom p{
+	margin: 0;
+	padding-top: 15px;
+	color:gray;
+}
+#login{
+	font-weight: bold;
+	padding-top: 25px;
+	color: white;
+	text-align: center;
+	font-size: 26px;
+}
+.login{
+	background: url("img/12.jpg");
+	opacity: 0.95;
+	margin: 0 auto;
+	border: 1px Solid black;
+	height: 330px;
+	width: 359px;
+}
+.mail{	
+	color: white;
+	padding-top: 10px;
+	padding-left: 35px;
+	font-size: 23px;
+	font-weight: bold;
+}
+.mail p{
+	margin: 0;
+	padding: 0;
+	margin-top: 7px;
+}
+.qr{
+	font-size: 23px;
+	color: black;
+}
+.mail input{
+	background-color: white;
+	max-width: 500px;
+}
+#check{
+	margin: 0;
+	float: left;
+	margin-top: 7px;
+
+}
+#rem{
+	font-weight: normal;
+	float: left;
+	font-size: 13px;
+}
+#get{
+	color: gray;
+	font-weight: normal;
+	float: right;
+	font-size: 13px;
+	padding-right: 35px;
+}
+#get:hover{
+	cursor: pointer;
+	color:white;
+}
+.sign{
+	opacity: 1;
+	margin-top: 45px;
+	background-color: #333333;
+	color: #1a1a1a;
+	border: 1px Solid;
+	font-size: 16px;
+	width: 80px;
+	height: 37px;
+	text-align: center;
+	padding-top: 8px;
+}
+.sign a{
+	color: gray;
+	text-decoration: none;
+}
+#need{
+	padding-top: 15px;
+	font-size: 13px;
+	color: gray;
+}
+#need span{
+	text-decoration:underline;
+}
+/*REGIST*******************************************************************************************************************/
+.regist{
+	background: url("img/12.jpg");
+	opacity: 0.9;
+	margin: 0 auto;
+	margin-top: 25px;
+	border: 1px Solid black;
+	height: 400px;
+	width: 365px;
+}
+.body-regist{
+	background-image: url("img/13.jpg");
+	background-size: 100%;
+	padding-top: 15px;
+	height: 534px;
+	width: 100%;	
+}
+#bottom-regist{
+	margin-top: 15px;
+	border-radius: 5px;
+	background-color: black;
+	color: #d9d9d9;
+}
+/****PRICELIST**************************************************************************************************************/
+body{
+	background-color:#1a1a1a; 
+}
+.body-price{
+	background-image: url("img/111.jpg");
+	background-size: 100%;
+	padding-top: 20px;	
+	padding-left: 95px;
+	height: 534px;
+	width: 100%;
+	font-size: 16px;
+}
+.price1{
+	position:relative;
+	color: #ffaa00;
+	float: left;
+	width: 400px;
+	height: 500px;
+}
+.price2{
+	color:  #ffaa00;
+}
+/***************************************************************************************************************************/
+.veyron-name{
+	background-color: black;
+	padding-top: 25px;
+	padding-left: 100px;
+	height: 100%;
+	font-size: 25px;
+	color: white;
+}
+.text{
+	padding-top: 50px;
+	height: 100%;
+	color: white;
+	padding-left: 100px;
+	
+}
+.image img{
+	width: 100%;	
+}
+#text{
+	color: white;
+	font-size: 14px;
+	float: left;
+	max-width: 520px;
+	height: 160px;
+}
+.text #text1{
+	padding-left: 550px;
+	padding-right: 20px;
+	
+}
+.text #text2{
+	padding-left: 55px;
+}
+
